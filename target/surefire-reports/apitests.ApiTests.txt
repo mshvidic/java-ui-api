@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: apitests.ApiTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 63.41 s <<< FAILURE! - in apitests.ApiTests
+apitests.ApiTests.apiTests(String)[1]  Time elapsed: 21.306 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Liste nisu iste ==> expected: <true> but was: <false>
+	at apitests.ApiTests.apiTests(ApiTests.java:101)
+
+apitests.ApiTests.apiTests(String)[2]  Time elapsed: 21.021 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Liste nisu iste ==> expected: <true> but was: <false>
+	at apitests.ApiTests.apiTests(ApiTests.java:101)
+
+apitests.ApiTests.apiTests(String)[3]  Time elapsed: 20.956 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Liste nisu iste ==> expected: <true> but was: <false>
+	at apitests.ApiTests.apiTests(ApiTests.java:101)
+
